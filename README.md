@@ -33,10 +33,12 @@ n $\rightarrow$ z
 This mapping $M$ is
 - One-to-one: Each vertex in $A$ maps to exactly one unique vertex in $B$
 - Onto: Every vertex in $B$ is mapped to by exactly one vertex in $A$
-  
-Therefore, $M$ satisfies the requirements of the isomorphism function $f$, it is a bijection between the vertex sets
 
-So ,graphs $A$ and $B$ are isomorphic. 
+Since both graphs are completely connected, any edge $(u,v)$ in $A$ maps to edge $(M(u),M(v))$ in $B$, preserving all edge relationships.
+
+Therefore, $M$ satisfies the requirements of the isomorphism function $f$, it is a bijection between the vertex sets and preserves all edge relationships.
+
+So, graphs $A$ and $B$ are isomorphic. 
 
 ### Sources
 
